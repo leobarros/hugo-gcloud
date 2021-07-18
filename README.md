@@ -25,3 +25,8 @@ Criei essa imagem para automatizar os deploy feitos e compartilhar com a comunid
   - **service account** - Uma conta de serviço usando para gerenciar nosso projeto com os `gsutil`e o `gcloud`
 
 Não vou contar aqui como hospedar o seu site no Google Cloud. Tem mais passos do que esses escritos, mas deixo essa documentação da Google sobre [como hospedar o seu site no Google Cloud](https://cloud.google.com/storage/docs/hosting-static-website#storage-create-bucket-gsutil)
+
+## Docker hub
+
+Você também pode baixar essa imagem via docker hub com o comando:
+`docker pull nickolback/hugo-gcloud:v1`
